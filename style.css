@@ -1,0 +1,14 @@
+h2 { 
+	color: red;
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+.rond { 
+	border-radius: 50%;
+}
+#life {
+		background-image: url(../images/image1);
+}
+	
