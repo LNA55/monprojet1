@@ -1,0 +1,20 @@
+h2 { 
+	color: red;
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+}
+
+.rond { 
+	border-radius: 50%;
+}
+
+#life {
+		background-image: url(../images/image1) fixed right;
+}
+	
+.mail-nav li {
+	display: inline;
+}
