@@ -7,14 +7,31 @@ PARTIE HEAD
 -->
 
 <head>
-	<title>Balise Title du projet témoin (accent ..?)</title>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Balise Title du projet témoin (accent ..?)</title>
 	<meta name="description" content="Site temoin de Elena">
-	<meta name="keywords" content="conseils en dev de site web">
+	<meta name="keywords" content="conseils en dev de site web"> <!-- les keywords ne sont plus utilisés-->
 	<meta name="author" content="Elena Web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/uikit.min.css" />
+    <script src="jquery.js"></script>
+    <script src="uikit.min.js"></script>
+    <script type="text/javascript">
+	 			var _gaq = _gaq || [];
+	  			_gaq.push(['_setAccount', 'UA-32203429-1']);
+	  			_gaq.push(['_trackPageview']);
+	  			(function() {
+	    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+	</script>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	</script>
 	<link rel="stylesheet" href="stylesheets/reset.css" type="text/css"> 
 	<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -32,7 +49,18 @@ PARTIE BODY
 
 <body>
 	<header>
-		<h1>Titre de mon site, balise H1</h1>
+		<div class="black-mobile">
+			<h1>Titre de mon site, balise H1</h1>
+			<img src="images/elena.hagege-shoette-portrait.jpg" alt="Elena Hagege">
+			<img src="images/elena.hagege-shoette-portrait.jpg" width="200px" class="rond">
+			<nav>
+				<ul class="main-nav">
+					<li><a href="#machin">Ma vie</a></li>
+					<li><a href="#bidule">Mes copains</a></li>
+					<li><a href="#slider">J'aime !</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<section id="test" class="machin">
 		ici les éléments de la section <br>
@@ -113,6 +141,11 @@ PARTIE BODY
 		Voici le footer. Mettre 3 colonnes, dont une image et deux textes. 
 	</footer>
 	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="/vendor/bootstrap.min.js"></script>
+	<script src="/main.js"></script>
+
+	
 </body>
 </html>
